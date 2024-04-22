@@ -1,24 +1,24 @@
 import React from 'react'
 import "../JobContainer.css"
 
-const JobCard = () => {
+const JobCard = ({job}) => {
   return (
     <div className='job-card-container'>
           <div className="job-header">
-              <div className="company-logo">Logo</div>
-              <h2 className="job-title">Software Engineer</h2>
+              <div className="company-logo">{job.companyLogo}</div>
+              <h2 className="job-title">{job.jobTitle}</h2>
           </div>
 
           <div className="job-container-second">
-              <span className="job-status">Applied</span>
-              <span className="job-link">Link</span>
+              <span className="job-status">{job.status}</span>
+              <span className="job-link">{job.link}</span>
           </div>
 
 
           <div className="job-detail-container">
-              <div className="company-title">Facebook</div>
-              <span className="job-location">Salem</span>
-              <span className="job-type">Full-Time</span>
+              <div className="company-title">{job.companyTitle}</div>
+              <span className="job-location">{job.location}</span>
+              <span className="job-type">{job.type}</span>
           </div>
     </div>
     
