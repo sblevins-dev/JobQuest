@@ -1,0 +1,33 @@
+.header-container {
+    background-color: rgb(255, 255, 255);
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-container > .link-container {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    column-gap: 20px;
+    cursor: pointer;
+}
+
+.header-profile-container {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header-image-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

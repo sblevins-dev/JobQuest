@@ -1,0 +1,37 @@
+.applications-container {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.applications-links-container {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(223, 223, 223);
+}
+
+.applications-links {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.applications-links-container > li {
+    padding: 10px;
+}
+
+.applications-links-container li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.active-link a {
+    color: blue;
+    background-color: blue;
+}
+
+
+

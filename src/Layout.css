@@ -1,0 +1,10 @@
+.layout-container {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    min-height: 100vh; /* Ensure layout takes up at least the height of the viewport */
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Make the main content area grow to fill available space */
+  }
